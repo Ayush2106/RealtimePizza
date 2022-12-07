@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+/* colorrs */
+/* #FE5F1E
+#F8F8F8 */
+
+
+nav{
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.navleft{
+    flex: 0.7;
+}
+.navright{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navright li {
+    margin-right: 8px;
+    list-style-type: none;
+    text-decoration: none !important;
+}
+.navright a{
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* heopage */
+section{
+    background-color: #F8F8F8;
+}
+.hero{
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+.heroleft{
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heroright{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 50px;
+}
+.btnorder{
+    background-color: #FE5F1E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5rem;
+    padding: 10px;
+    border:2px solid #FE5F1E;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* Menupage */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info .size{
+    background-color: rgb(168, 164, 164);
+    padding: 6px;
+}
+.priceadd{
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+/* :emptycart */
+.empty-cart{
+    padding: 15px;
+    height: calc(100vh-80x);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* register */
+.register{
+    background-color: orange;
+    margin: auto;
 }
